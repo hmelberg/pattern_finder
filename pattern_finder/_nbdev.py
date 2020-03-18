@@ -2,24 +2,19 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"Info": "pattern_finder.ipynb",
-         "memory": "pattern_finder.ipynb",
-         "listify": "pattern_finder.ipynb",
-         "unique": "pattern_finder.ipynb",
-         "del_dot": "pattern_finder.ipynb",
-         "del_zero": "pattern_finder.ipynb",
-         "expand_hyphen": "pattern_finder.ipynb",
-         "expand_star": "pattern_finder.ipynb",
-         "expand_colon": "pattern_finder.ipynb",
-         "expand_regex": "pattern_finder.ipynb",
-         "expand_code": "pattern_finder.ipynb",
-         "expand_columns": "pattern_finder.ipynb",
-         "get_rows": "pattern_finder.ipynb",
-         "make_codes": "pattern_finder.ipynb",
-         "make_data": "pattern_finder.ipynb",
-         "extract_codes": "pattern_finder.ipynb",
+index = {"listify": "utilities.ipynb",
+         "reverse_dict": "utilities.ipynb",
+         "del_dot": "utilities.ipynb",
+         "del_zero": "utilities.ipynb",
+         "expand_hyphen": "utilities.ipynb",
+         "expand_star": "utilities.ipynb",
+         "expand_colon": "utilities.ipynb",
+         "expand_regex": "utilities.ipynb",
+         "expand_code": "utilities.ipynb",
+         "expand_columns": "utilities.ipynb",
+         "format_codes": "utilities.ipynb",
+         "insert_external": "utilities.ipynb",
          "sankey_format": "pattern_finder.ipynb",
-         "persons_with": "pattern_finder.ipynb",
          "stringify_durations": "pattern_finder.ipynb",
          "interleave_strings": "pattern_finder.ipynb",
          "left_justify": "pattern_finder.ipynb",
@@ -30,9 +25,21 @@ index = {"Info": "pattern_finder.ipynb",
          "del_repeats": "pattern_finder.ipynb",
          "del_singles": "pattern_finder.ipynb",
          "stringify_time": "pattern_finder.ipynb",
-         "insert_external": "pattern_finder.ipynb"}
+         "make_codes": "utilities.ipynb",
+         "make_data": "utilities.ipynb",
+         "get_rows": "utilities.ipynb",
+         "extract_codes": "utilities.ipynb",
+         "Info": "utilities.ipynb",
+         "memory": "utilities.ipynb",
+         "unique": "utilities.ipynb",
+         "count_codes": "utilities.ipynb",
+         "lookup_codes": "utilities.ipynb",
+         "get_codes": "utilities.ipynb"}
 
-modules = ["core.py"]
+modules = ["tutorial.py",
+           "old.py",
+           "pattern.py",
+           "utils.py"]
 
 doc_url = "https://hmelberg.github.io/pattern_finder/"
 
